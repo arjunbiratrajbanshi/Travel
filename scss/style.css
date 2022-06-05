@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#nbg {
+  background-color: #E9ECEF;
+}
+
+.icon-rounded {
+  background-color: #E4E8FE;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.icon-rounded svg:hover {
+  color: #E83E8C;
+}
+
+#booking {
+  background-color: #F8F9FA;
+}
+
+#cover {
+  margin-top: 4rem;
+}
+
+#testimonial {
+  margin: 2rem 3rem;
+}
+
+#test {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 280px) and (max-width: 1000px) {
+  #cbr {
+    margin-bottom: 4rem;
+  }
+}
+
+.testimonial-avatar {
+  background-color: gray;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+  padding: 3px;
+  overflow: hidden;
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+}
+
+.testimonial-icon {
+  margin-bottom: 10px;
+  color: #4E66F8;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-top: 3rem;
+}
+
+#stories {
+  background-color: #E9ECEF;
+  padding-bottom: 4rem;
+}
+
+.subtitle {
+  color: #E83E8C;
+}
+
+#stories a {
+  text-decoration: none;
+}
+
+#stories a:hover {
+  color: #E83E8C;
+}
+
+#oc {
+  background-color: #E9ECEF;
+}
+
+.footer-top {
+  background-color: #E9ECEF;
+}
+
+#fth {
+  color: black;
+}
+
+#fb {
+  background-color: #E9ECEF;
+  border-top: 1px solid black;
+}
+
+#fb i {
+  color: darkred;
+}
+
+.card {
+  border-radius: 9px;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+/*# sourceMappingURL=style.css.map */
